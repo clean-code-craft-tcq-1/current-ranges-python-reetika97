@@ -44,6 +44,9 @@ Start test-driven development:
 1. Establish quality parameters for your project: What is the maximum complexity you would allow? How much duplication would you consider unacceptable? What is the coverage you'll aim for?
 Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
+Maximum complexity -4
+Duplication -3
+
 1. Write the smallest possible failing test.
 
 1. Write the minimum amount of code that'll make it pass.
