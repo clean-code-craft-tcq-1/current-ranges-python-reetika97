@@ -14,8 +14,8 @@ class CurrentRangesTest(unittest.TestCase):
     range_count=currentRanges.def_all_ranges([4,4,5,4,8,9,10],range_count)
     self.assertTrue(range_count == ans )
     
-  def test_remove_min_listNotEmpty(self):
-    self.assertFalse(currentRanges.remove_min([]) == [])
+  #def test_remove_min_listNotEmpty(self):
+   # self.assertFalse(currentRanges.remove_min([]) == [])
    
 if __name__ == '__main__':
   unittest.main()
