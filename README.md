@@ -55,5 +55,11 @@ Duplication -3
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+-Passing Test Case:
+- test_count_min(self):
+  test_remove_min(self):
+  test_def_range_count(self)
+  test_def_all_ranges(self)
+  
+- Failing Test case:
+- def test_remove_min_listNotEmpty(self)
