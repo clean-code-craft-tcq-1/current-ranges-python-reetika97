@@ -9,7 +9,7 @@ class CurrentRangesTest(unittest.TestCase):
   def test_def_range_count(self):
     self.assertTrue(currentRanges.def_range_count([4,4,5,5,4,8]) == [5,{4:5}])
   def test_def_all_ranges(self):
-    self.assertTrue(currentRanges.def_def_all_ranges([1,2,2,2,4,4,5,5,4,8,9,10]) == [[4,{1:2}],[5,{4:5}],[3,{8:10}]])
+    self.assertTrue(currentRanges.def_all_ranges([1,2,2,2,4,4,5,5,4,8,9,10]) == [[4,{1:2}],[5,{4:5}],[3,{8:10}]])
    
 if __name__ == '__main__':
   unittest.main()
