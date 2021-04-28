@@ -30,4 +30,4 @@ def def_all_ranges(lt,range_count):
     else:
         
         range_count.append(def_range_count(lt))
-        def_all_ranges(lt,range_count)
+        return(def_all_ranges(lt,range_count))
